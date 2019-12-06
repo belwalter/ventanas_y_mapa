@@ -19,7 +19,7 @@ class MapaUrl():
         self.marcadores2 = "" #"&markers=color:purple|label:J|concepcion del uruguay"
         self.path = ""
         self.path2 = ""
-        self.api_key = "&key=AIzaSyAJ2aEs0UpGAW-G4mleFU6nasD6U1RkfT0"
+        self.api_key = "&key="
 
     def get_url(self):
         parametros = self.centro + self.zoom + self.size + self.formato + self.maptype + self.marcadores+self.marcadores2+self.path+self.path2+self.api_key
